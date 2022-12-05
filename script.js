@@ -5,7 +5,7 @@ class RangeValidator {
    * @param {number} from
    * @param {number} to
    */
-  constructor(from, to) {
+  constructor(from = 0, to = 10) {
     this.from = from;
     this.to = to;
   }
